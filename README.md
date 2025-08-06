@@ -8,7 +8,7 @@
 
 # Charles v0.1
 
-A low profile, integrated ble, hotswap, choc-spaced QAZlike pcb based on [Chaz](https://github.com/hazels-garage/chaz) by [Jason Hazel](https://github.com/hazels-garage).
+A low profile, integrated ble, hotswap, choc-spaced QAZlike pcb based on [Chaz](https://github.com/hazels-garage/chaz) by Jason Hazel and [War Driver](https://gitlab.com/lpgalaxy/war-driver) by Pete Johanson. Thanks to both of you for the inspiration and support.
 
 ![Charles pcb screenshot](images/charles.png)
 

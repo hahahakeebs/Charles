@@ -5473,6 +5473,10 @@
 		(uuid "00f3ea8b-8a54-4e56-84ff-d98f6c00496c")
 	)
 	(no_connect
+		(at 271.78 68.58)
+		(uuid "01ca9ad2-87c1-4515-86fc-f236704d1b64")
+	)
+	(no_connect
 		(at 234.95 22.86)
 		(uuid "0520f61d-4522-4301-a3fa-8ed0bf060f69")
 	)
@@ -5483,6 +5487,10 @@
 	(no_connect
 		(at 271.78 55.88)
 		(uuid "0d700f95-da54-40d1-9fe7-032d15cd11d5")
+	)
+	(no_connect
+		(at 214.63 45.72)
+		(uuid "0e23df59-5209-4bdf-bc89-3932d19bca90")
 	)
 	(no_connect
 		(at 252.73 93.98)
@@ -5509,6 +5517,10 @@
 		(uuid "479331ff-c540-41f4-84e6-b48d65171e59")
 	)
 	(no_connect
+		(at 214.63 68.58)
+		(uuid "543cc218-be61-479a-9237-ea57c3ac9e88")
+	)
+	(no_connect
 		(at 146.05 53.34)
 		(uuid "54ed3ee1-891b-418e-ab9c-6a18747d7388")
 	)
@@ -5517,8 +5529,16 @@
 		(uuid "61fe4c73-be59-4519-98f1-a634322a841d")
 	)
 	(no_connect
+		(at 271.78 63.5)
+		(uuid "647e8063-5999-4cd7-aec8-24df1bbce06e")
+	)
+	(no_connect
 		(at 146.05 50.8)
 		(uuid "749d9ed0-2ff2-4b55-abc5-f7231ec3aa28")
+	)
+	(no_connect
+		(at 271.78 71.12)
+		(uuid "87dd4408-1117-4b5e-ba2e-1954b413a89f")
 	)
 	(no_connect
 		(at 214.63 60.96)
@@ -5529,8 +5549,20 @@
 		(uuid "89c0bc4d-eee5-4a77-ac35-d30b35db5cbe")
 	)
 	(no_connect
+		(at 214.63 58.42)
+		(uuid "8bcc1705-6721-44eb-be2d-8a1c1088c06a")
+	)
+	(no_connect
+		(at 271.78 60.96)
+		(uuid "a3108909-a116-4d65-9fe1-b83f7ee23dc7")
+	)
+	(no_connect
 		(at 214.63 63.5)
 		(uuid "a7531a95-7ca1-4f34-955e-18120cec99e6")
+	)
+	(no_connect
+		(at 214.63 66.04)
+		(uuid "ba33b95a-c5fa-4bed-ae4f-9243e3244f47")
 	)
 	(no_connect
 		(at 240.03 22.86)
@@ -5549,7 +5581,7 @@
 		(uuid "cc15f583-a41b-43af-ba94-a75455506a96")
 	)
 	(no_connect
-		(at 270.51 58.42)
+		(at 271.78 58.42)
 		(uuid "cee54830-1a62-4c33-a3a4-447638974d71")
 	)
 	(no_connect
@@ -5559,6 +5591,14 @@
 	(no_connect
 		(at 214.63 53.34)
 		(uuid "d21cc5e4-177a-4e1d-a8d5-060ed33e5b8e")
+	)
+	(no_connect
+		(at 214.63 48.26)
+		(uuid "d6c17ceb-53c4-48c7-aef6-2b0bdec08f49")
+	)
+	(no_connect
+		(at 214.63 50.8)
+		(uuid "e7effaf8-ccec-4897-a077-6dbafe71da1c")
 	)
 	(no_connect
 		(at 214.63 73.66)
@@ -6760,7 +6800,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 58.42) (xy 270.51 58.42)
+			(xy 267.97 58.42) (xy 271.78 58.42)
 		)
 		(stroke
 			(width 0)

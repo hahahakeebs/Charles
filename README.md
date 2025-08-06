@@ -10,6 +10,8 @@
 
 A low profile, integrated ble, hotswap, choc-spaced QAZlike pcb based on [Chaz](https://github.com/hazels-garage/chaz) by [Jason Hazel](https://github.com/hazels-garage).
 
+![Charles pcb screenshot](images/charles.png)
+
 ## Not yet tested, yolo to jlc at your own peril!
 
 # Chaz

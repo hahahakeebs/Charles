@@ -1,0 +1,6492 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b096ba89-0fe9-4ada-9e02-eb86eb078a91")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:BAT54C"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.635 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAT54C"
+				(at -6.35 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 1.905 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+				(at -2.032 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "dual schottky barrier diode, common cathode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "schottky diode common cathode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT54C_0_1"
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.175 1.27) (xy -1.27 0) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 1.27) (xy 1.27 0) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54C_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_marbastlib-choc:choc_stab"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "choc_stab"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-xp-choc:STAB_choc_2u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Kailh Choc-style stabilizer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "kailh choc low profile keyswitch keyboard stabilizer stab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "choc_stab_0_1"
+				(rectangle
+					(start -5.08 1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -1.524)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.826 2.794)
+					(end -2.794 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 1.27)
+					(end -3.556 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -1.778)
+					(end 4.064 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -2.286)
+					(end -3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.27)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.524)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 2.794)
+					(end 4.826 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 1.27)
+					(end 4.064 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 -2.286)
+					(end 3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SW_Push_45deg_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_45deg"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_45deg_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 153.67 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0373e32b-fa4b-4015-ba41-f3415fdfc8fd")
+	)
+	(junction
+		(at 133.35 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0831049d-3617-4496-8934-0fd73464fc9c")
+	)
+	(junction
+		(at 173.99 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f805917-0319-49f7-a299-205ba7246b39")
+	)
+	(junction
+		(at 133.35 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1835dcd6-2079-486b-9ab2-467b176ea989")
+	)
+	(junction
+		(at 110.49 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d7de3ce-03da-45b6-be04-8b8afc92d0ff")
+	)
+	(junction
+		(at 110.49 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24e96978-6ded-4499-b67f-612f5e5a1933")
+	)
+	(junction
+		(at 115.57 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "257790ac-6e85-4224-8985-28abe38b10f0")
+	)
+	(junction
+		(at 191.77 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a4e08ce-e39b-44e5-9dc4-87ffe4835446")
+	)
+	(junction
+		(at 135.89 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3207a8fd-f6db-4369-859b-f68e84566b09")
+	)
+	(junction
+		(at 135.89 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36651489-77ec-49fc-b786-3f6ff8780ae5")
+	)
+	(junction
+		(at 113.03 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a463c71-366b-4261-9c12-88b8e7c4cce2")
+	)
+	(junction
+		(at 130.81 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50d28c69-c7b5-43c4-ad5d-d7969e1435e1")
+	)
+	(junction
+		(at 115.57 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "555692eb-1a8d-4282-838e-0accffcc6d72")
+	)
+	(junction
+		(at 156.21 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "557b1112-f021-4591-9204-874b6c15ed40")
+	)
+	(junction
+		(at 173.99 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56b34912-0c73-46a9-93c6-54c1d32116df")
+	)
+	(junction
+		(at 191.77 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d2348c0-dcf0-4b6d-a877-4d7243556838")
+	)
+	(junction
+		(at 135.89 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fabba40-7d4b-4998-bcba-d629ac51a73a")
+	)
+	(junction
+		(at 196.85 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6537dea1-469e-42ed-b723-0d484a3aa60a")
+	)
+	(junction
+		(at 151.13 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c403692-d1c5-4868-b47a-87012525aa57")
+	)
+	(junction
+		(at 110.49 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c9bdf64-9e93-4839-9dd3-687c579515f3")
+	)
+	(junction
+		(at 151.13 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce8c9a1-a886-4fd4-8ec8-7586f34db3b8")
+	)
+	(junction
+		(at 171.45 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d1a42ce-d072-4fb5-a872-91f46590067d")
+	)
+	(junction
+		(at 196.85 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df550e2-9e59-42c1-b23d-266fdd878c19")
+	)
+	(junction
+		(at 196.85 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a678520-1c5f-406d-a045-0f2d636d401c")
+	)
+	(junction
+		(at 176.53 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cbaf8b7-289c-48d1-a72f-48dcca26eaad")
+	)
+	(junction
+		(at 113.03 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97e056ac-4e11-427e-9fa6-a89983c9e354")
+	)
+	(junction
+		(at 133.35 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fd95170-b3ed-4666-a146-73082a437ae3")
+	)
+	(junction
+		(at 173.99 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2ffe22c-d185-46e3-9e8e-ad85fc9edbff")
+	)
+	(junction
+		(at 130.81 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cae05fbc-578b-4fa0-904a-43eb2b6d1235")
+	)
+	(junction
+		(at 130.81 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d187e30f-2d85-4a1e-b38d-57af7a3d01ea")
+	)
+	(junction
+		(at 156.21 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7c2c619-daf1-4096-ac92-d1e0dfc9b7ab")
+	)
+	(junction
+		(at 191.77 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9808d6e-c60e-42db-8fb1-f6f6652c2b97")
+	)
+	(junction
+		(at 173.99 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e14b4d66-26b8-43a2-8926-42d279495c16")
+	)
+	(junction
+		(at 153.67 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2d91f11-53b3-4a9a-8855-63f0aeda7532")
+	)
+	(junction
+		(at 156.21 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4b3b8f7-347e-400e-ae32-20998301cf0a")
+	)
+	(junction
+		(at 113.03 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5274f7a-8c5f-47d0-a246-f6d3ca2da595")
+	)
+	(junction
+		(at 153.67 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8aa1089-ea4b-4661-b1ea-23371bab4863")
+	)
+	(junction
+		(at 176.53 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ece969c4-2e67-48cd-be51-da157b34ecba")
+	)
+	(junction
+		(at 113.03 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed29dcfd-3316-41d1-b73d-715a60c5d428")
+	)
+	(junction
+		(at 133.35 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edab0ed0-6a49-4070-b69e-df11052c669a")
+	)
+	(junction
+		(at 115.57 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3dd09bd-4c2a-4154-b6a7-c213eeb97750")
+	)
+	(junction
+		(at 176.53 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa383aa5-07e8-4ae5-99af-34b705fcf5e6")
+	)
+	(no_connect
+		(at 166.37 102.87)
+		(uuid "5104a01a-7d54-4960-bf00-5d04b68c1bb2")
+	)
+	(wire
+		(pts
+			(xy 173.99 93.98) (xy 173.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0041ce91-c3ea-4d39-bc32-e289ca164384")
+	)
+	(wire
+		(pts
+			(xy 100.33 81.28) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04687b20-f512-45b9-b724-d73c7548007f")
+	)
+	(wire
+		(pts
+			(xy 113.03 109.22) (xy 133.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050a16ac-b0db-4649-891d-4c94968bfd84")
+	)
+	(wire
+		(pts
+			(xy 173.99 109.22) (xy 194.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08391e24-5047-4ff2-8da3-7883812e3af2")
+	)
+	(wire
+		(pts
+			(xy 173.99 107.95) (xy 173.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c70f24-3bae-4554-98e5-561a5b07968a")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8c7dc4-92fa-4634-ab66-bffadfe34d39")
+	)
+	(wire
+		(pts
+			(xy 173.99 121.92) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2f62a5-0f17-4048-96d0-dfaa77577191")
+	)
+	(wire
+		(pts
+			(xy 191.77 107.95) (xy 191.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c624af4-37d5-4f45-abbc-85668901ada1")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.01) (xy 110.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0d56d4-a9a6-4fc7-98fd-c4e7a5fa579c")
+	)
+	(wire
+		(pts
+			(xy 171.45 80.01) (xy 171.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d321336-564c-4325-829f-cba4fb21485e")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231b9924-3bca-429e-8bfa-6c481d5201c0")
+	)
+	(wire
+		(pts
+			(xy 113.03 123.19) (xy 133.35 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ddd11e-c229-4b54-9d13-fa57f69a4583")
+	)
+	(wire
+		(pts
+			(xy 135.89 67.31) (xy 135.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ffc464-1034-4c9c-b708-1f5dba857bd5")
+	)
+	(wire
+		(pts
+			(xy 196.85 80.01) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30926a1a-9607-42ca-bb11-04bb4bff0dc6")
+	)
+	(wire
+		(pts
+			(xy 156.21 107.95) (xy 156.21 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366611dc-2c9f-4fe7-a5bd-99aa8c66826b")
+	)
+	(wire
+		(pts
+			(xy 176.53 107.95) (xy 176.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368949c9-8854-42d6-8891-17afe6af126b")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df51b88-f772-4133-8618-446c9584c740")
+	)
+	(wire
+		(pts
+			(xy 196.85 107.95) (xy 196.85 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa50dec-d61e-4423-af47-30b7d4b937e3")
+	)
+	(wire
+		(pts
+			(xy 151.13 93.98) (xy 151.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46118176-7ccf-41b9-86e8-61f61927eba6")
+	)
+	(wire
+		(pts
+			(xy 135.89 107.95) (xy 135.89 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4951ec27-6a42-4f59-96d9-224b7b56b595")
+	)
+	(wire
+		(pts
+			(xy 194.31 123.19) (xy 194.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ace6268-c0fc-480c-824b-710480f534ef")
+	)
+	(wire
+		(pts
+			(xy 156.21 93.98) (xy 156.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503bffa3-1eca-4e06-84be-d061028ba946")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 151.13 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51cbfdf1-6bcd-4ba3-8d30-bf84813d99c1")
+	)
+	(wire
+		(pts
+			(xy 176.53 93.98) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546de04b-9e99-41f4-8332-61d626f937a6")
+	)
+	(wire
+		(pts
+			(xy 194.31 80.01) (xy 194.31 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e0058e-ce18-45c8-ab5c-225dd9d6bdb8")
+	)
+	(wire
+		(pts
+			(xy 153.67 95.25) (xy 173.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a112d86-f9c0-48dd-be63-8a0f9861a483")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3b502b-25b0-4309-bb1f-7f73be85fd7f")
+	)
+	(wire
+		(pts
+			(xy 133.35 123.19) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62daba7a-b411-4668-a477-a0a5562047f1")
+	)
+	(wire
+		(pts
+			(xy 194.31 93.98) (xy 194.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65353188-9921-41a6-b1ad-c66c5f2f65b1")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cdf632-e64e-4528-bb57-00aa697ef9d7")
+	)
+	(wire
+		(pts
+			(xy 171.45 67.31) (xy 171.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68dc4deb-0380-4d20-84a9-1a132db2aa79")
+	)
+	(wire
+		(pts
+			(xy 153.67 107.95) (xy 153.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fe0ffa-65a5-493d-8e7a-acddec985732")
+	)
+	(wire
+		(pts
+			(xy 194.31 81.28) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770848d7-3b34-4362-8408-d9c12676df81")
+	)
+	(wire
+		(pts
+			(xy 130.81 93.98) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792c7420-814a-430b-9967-c9fd5ed433bd")
+	)
+	(wire
+		(pts
+			(xy 133.35 121.92) (xy 133.35 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cb7db2-663f-4b86-a556-a0fafbe6d943")
+	)
+	(wire
+		(pts
+			(xy 196.85 93.98) (xy 196.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81202fd1-967e-4ae9-8c36-f5ac20cbbf5c")
+	)
+	(wire
+		(pts
+			(xy 100.33 123.19) (xy 113.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8197c608-ba1d-4b23-ab3e-d9cbe05bb803")
+	)
+	(wire
+		(pts
+			(xy 110.49 107.95) (xy 110.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822963ba-ae30-4fa2-922b-49a7c219b83e")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 173.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82506d37-7b18-4993-a49e-6a58af0406d0")
+	)
+	(wire
+		(pts
+			(xy 110.49 93.98) (xy 110.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc6f7b7-7360-40e2-8895-b019b9b7bb43")
+	)
+	(wire
+		(pts
+			(xy 151.13 80.01) (xy 151.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3d744e-834e-4fa2-b6b1-7c4fd34caecb")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 156.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da339e9-7944-470c-a211-a685004c1f84")
+	)
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9aa834-5aba-4811-a65c-0805f94fd141")
+	)
+	(wire
+		(pts
+			(xy 113.03 121.92) (xy 113.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9e2852-7c1e-4f1a-a3a3-5ce30836aa13")
+	)
+	(wire
+		(pts
+			(xy 110.49 67.31) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91457312-73b8-46b4-aa79-a501c9c8c42d")
+	)
+	(wire
+		(pts
+			(xy 173.99 123.19) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928e1f73-b8eb-463f-b4ca-6fdcdfb14838")
+	)
+	(wire
+		(pts
+			(xy 194.31 107.95) (xy 194.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943cfa59-7d52-41b8-8d1a-8a9aa8726b3c")
+	)
+	(wire
+		(pts
+			(xy 133.35 80.01) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995bed9a-7109-47c8-8802-341678caf6cf")
+	)
+	(wire
+		(pts
+			(xy 156.21 80.01) (xy 156.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99689886-b457-40dc-a602-f2f717d26ea4")
+	)
+	(wire
+		(pts
+			(xy 113.03 107.95) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a52c3c9-5e76-4047-b39d-700534875faf")
+	)
+	(wire
+		(pts
+			(xy 135.89 93.98) (xy 135.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b20b01c-7781-4c80-9e3a-6d4648a59fad")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 130.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0077fd-9f41-4265-aa6b-8a8bd9b5e0be")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5244b2c-9b34-4c0e-be84-154147802a48")
+	)
+	(wire
+		(pts
+			(xy 115.57 107.95) (xy 115.57 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c37bfb-c06c-4018-8836-9ea64f9e62e3")
+	)
+	(wire
+		(pts
+			(xy 113.03 95.25) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ddeb94-c090-45ce-b401-f5e682a0a079")
+	)
+	(wire
+		(pts
+			(xy 153.67 80.01) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e27501-e401-402d-ad0b-56d5fa6dbec7")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace52d90-b293-49a2-8139-cdcdfee9021b")
+	)
+	(wire
+		(pts
+			(xy 135.89 80.01) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b183b268-79b4-49cc-b0d4-87f9e09c8544")
+	)
+	(wire
+		(pts
+			(xy 176.53 67.31) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf60754-fe37-453a-9139-f7827c9b66b6")
+	)
+	(wire
+		(pts
+			(xy 130.81 80.01) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4f6865-1ca7-45dd-afad-71bac3266c44")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0877d74-e378-41ef-bb42-3c8feb917021")
+	)
+	(wire
+		(pts
+			(xy 133.35 107.95) (xy 133.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e11b6f-6f0e-4712-b8d9-9429eea38f44")
+	)
+	(wire
+		(pts
+			(xy 161.29 116.84) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72069c3-ecb5-49a6-9ef0-8a7a92fe875a")
+	)
+	(wire
+		(pts
+			(xy 191.77 67.31) (xy 191.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ff3a6b-9c0e-4522-8bb4-d87862476778")
+	)
+	(wire
+		(pts
+			(xy 191.77 93.98) (xy 191.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9db4622-813d-4fbd-946a-b8c2db537276")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02ec0e9-3f4f-40f6-a81b-97deb82182a4")
+	)
+	(wire
+		(pts
+			(xy 133.35 109.22) (xy 153.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2998c7a-c441-4794-9510-f7306ea7c08c")
+	)
+	(wire
+		(pts
+			(xy 191.77 80.01) (xy 191.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d647c4ff-a32f-4486-8837-4f179766c5d8")
+	)
+	(wire
+		(pts
+			(xy 173.99 95.25) (xy 194.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09ffda4-03c5-4e7a-a105-859e4ce01f29")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2eb026e-1f3c-4d95-b93d-dfef3a9d2f58")
+	)
+	(wire
+		(pts
+			(xy 173.99 80.01) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72a4cf8-06ca-47be-95eb-c30ab4dce99b")
+	)
+	(wire
+		(pts
+			(xy 153.67 81.28) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9347eaa-0f01-4352-b745-92b0b0d92459")
+	)
+	(wire
+		(pts
+			(xy 100.33 109.22) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74cc061-40cf-41b5-b65d-cd9822300d3b")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb831725-ceb1-4358-9e7f-a4e57c169091")
+	)
+	(wire
+		(pts
+			(xy 196.85 67.31) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf322fa-abb9-47cf-8708-80855131b795")
+	)
+	(wire
+		(pts
+			(xy 130.81 67.31) (xy 130.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd759193-72d8-40ad-8935-2e0c989be176")
+	)
+	(global_label "row3"
+		(shape input)
+		(at 100.33 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b6c439e-3323-4940-8c0f-2e2ddaf52306")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8696 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 100.33 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f8d932e-c188-4651-94b3-a529604e0ad2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8696 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape input)
+		(at 110.49 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3054f6de-e721-4632-91b4-c83ce24d8cc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col7"
+		(shape input)
+		(at 176.53 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44b72da4-b506-4eaf-ac1e-21e89a8e26f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 151.13 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56c5a899-8c2e-4c43-905d-fb27e6073b6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 115.57 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65e42eb8-9172-4c01-a685-4092a36f1f73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col9"
+		(shape input)
+		(at 196.85 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ac1ceb1-df16-474a-9b37-38834d5670c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col6"
+		(shape input)
+		(at 171.45 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b81af36a-9f34-43ca-9828-d4e66d35bc61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.45 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 100.33 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cac1f978-7e87-46d5-a806-84c0163a85a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8696 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col8"
+		(shape input)
+		(at 191.77 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd01188d-fb82-46b3-9e36-c1d9d9374b81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.77 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 100.33 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec251b94-5af9-402d-8aa1-8bb3920d3e16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8696 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col5"
+		(shape input)
+		(at 156.21 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edc87ad1-d48c-4e4b-a9e0-e1e07391b62f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 130.81 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef9d292a-8a0b-48ed-84a7-5c19e1be9c88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 135.89 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4882d99-622d-41a1-b0f0-00557b085099")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 60.2125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 168.91 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01977942-0f65-471d-bb89-67846fd00d68")
+		(property "Reference" "SW17"
+			(at 169.164 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,6]"
+			(at 170.18 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 168.91 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 168.91 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20f6cb57-e77f-4556-9285-a253a524ef51")
+		)
+		(pin "2"
+			(uuid "1cf3f3e0-e152-4da9-bbb7-0ec60b7a53b9")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 199.39 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02b90428-dfd0-40fa-9e4b-611403de2e94")
+		(property "Reference" "SW20"
+			(at 199.39 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,9]"
+			(at 198.12 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8aaba9d0-feeb-4c7e-b541-67edbf3334cb")
+		)
+		(pin "2"
+			(uuid "ae648c96-2b46-4b46-a34a-034cebfd2ea9")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 179.07 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0376b840-77b4-4706-8f61-8975222fd9f1")
+		(property "Reference" "SW27"
+			(at 179.07 105.41 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[2,7]"
+			(at 177.8 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5920e9cd-9266-4f6c-8121-44f861f06d62")
+		)
+		(pin "2"
+			(uuid "6d32f1b3-06a1-41c7-a06d-d38362219833")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 148.59 105.41 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b36f330-8c63-44ff-83bd-ac73ad08d971")
+		(property "Reference" "SW25"
+			(at 148.336 105.41 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[2,4]"
+			(at 147.32 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 148.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 148.59 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 148.59 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02573169-23dc-46d8-b26b-00a00cea7ad3")
+		)
+		(pin "2"
+			(uuid "72a0898c-4763-4819-9bc2-71eb6af06b3a")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 133.35 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d3dcb58-ceec-4b59-b319-1b32d94101b5")
+		(property "Reference" "D10"
+			(at 133.35 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 133.35 85.4964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 135.255 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 131.318 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ff2ea19-75e8-4d3b-8101-5611b659a5f2")
+		)
+		(pin "2"
+			(uuid "a7904525-af67-40f8-a0a3-afb91ad3e798")
+		)
+		(pin "3"
+			(uuid "7b7bdc6f-b37c-4243-bbfc-b003aba167e3")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 148.59 77.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f044b36-3cfd-48a8-bcad-0ebeddc16df8")
+		(property "Reference" "SW5"
+			(at 148.336 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,4]"
+			(at 147.32 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 148.59 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 148.59 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "189f2fee-607d-4234-bd9f-ea920e77f58a")
+		)
+		(pin "2"
+			(uuid "99731fe6-906d-43be-bd77-4916d2abfe0d")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 153.67 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27cb59a1-d56d-470c-96d0-2dfca1c1d179")
+		(property "Reference" "D6"
+			(at 153.67 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 153.67 71.5264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 151.765 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 155.702 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c0c85f9-86d6-466d-a5c1-79dc1f258b99")
+		)
+		(pin "2"
+			(uuid "61ec58a9-d1d7-48e1-ac64-59f45a20a758")
+		)
+		(pin "3"
+			(uuid "c6fab1ca-31e7-499f-974b-1f155d75a972")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 113.03 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a9b6908-5075-48ef-a310-fba2ea41b7e8")
+		(property "Reference" "D9"
+			(at 113.03 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 113.03 85.4964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 114.935 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 110.998 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb531d02-8591-4411-bf82-d4f641c6a5ae")
+		)
+		(pin "2"
+			(uuid "9b8edb0b-742f-4340-a2ce-043a3a09f08a")
+		)
+		(pin "3"
+			(uuid "64ae08bc-2321-4253-88a6-5b60ebd0e2d0")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 158.75 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "333e48cd-d6eb-4fa5-92b0-09af920081e1")
+		(property "Reference" "SW6"
+			(at 158.75 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,5]"
+			(at 157.48 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89b83b90-2148-4259-a04d-75a5b4eabbde")
+		)
+		(pin "2"
+			(uuid "04198f2b-b2a7-466a-bde2-2726f38184fc")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 173.99 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "456b8257-6e22-4718-be8d-c00195309e4d")
+		(property "Reference" "D7"
+			(at 173.99 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 173.99 71.5264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 172.085 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 176.022 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae8ac3f1-00b6-4579-be4c-05a3e0849856")
+		)
+		(pin "2"
+			(uuid "7cd560bb-279b-4bb5-852a-ed9db6ac1873")
+		)
+		(pin "3"
+			(uuid "70463e1f-3914-42ac-bbbd-1f1329d405ca")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 113.03 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47666444-dc13-4c06-b63f-63de1e5ba8fe")
+		(property "Reference" "D19"
+			(at 113.03 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 113.03 113.4364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 111.125 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 115.062 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9dd7205-80be-4a70-aeb7-a336121226ef")
+		)
+		(pin "2"
+			(uuid "655e37f7-d944-4955-9138-a2b95fd14b8d")
+		)
+		(pin "3"
+			(uuid "909ea7ed-1101-454f-a780-f14f19d5e391")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 118.11 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aceba97-cef8-47f1-86a8-5d67d62104be")
+		(property "Reference" "SW12"
+			(at 118.11 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,1]"
+			(at 116.84 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a5c1d86-23b8-4d51-b770-dabc504ce99e")
+		)
+		(pin "2"
+			(uuid "e4fd1445-90e9-43b3-9bbd-1d343f4e270a")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 118.11 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aff2a95-4da1-4f02-8e61-8c4649620934")
+		(property "Reference" "SW22"
+			(at 118.11 105.41 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[2,1]"
+			(at 116.84 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39e2d427-c03a-4c76-9174-eb39ce97ee7a")
+		)
+		(pin "2"
+			(uuid "31bb0e34-b001-4884-8aa3-268b52eb6334")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 189.23 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c88d8b7-6810-49ff-b5dc-73b22658a1e9")
+		(property "Reference" "SW19"
+			(at 189.484 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,8]"
+			(at 190.5 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 189.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 189.23 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 189.23 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c32c8e9-982f-4df0-bd4f-dc5def221d81")
+		)
+		(pin "2"
+			(uuid "70bd9486-defc-4826-ac81-1a506642a60e")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 133.35 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e84c2ba-fcab-47e2-8b9a-5265c4e5f66a")
+		(property "Reference" "D5"
+			(at 133.35 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 133.35 71.5264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 131.445 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 135.382 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09f931fd-c7e8-4be5-b138-e36ac28788a7")
+		)
+		(pin "2"
+			(uuid "207e8911-98c2-4dd7-b915-abcf0bbd8a67")
+		)
+		(pin "3"
+			(uuid "cfe4a14a-ea4d-492a-b488-31d8eb16cf5a")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 153.67 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5286a6dd-a040-41b1-9685-61aaf429a405")
+		(property "Reference" "D16"
+			(at 153.67 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 153.67 99.4664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 151.765 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 155.702 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 153.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25fb171f-30c8-4671-9afd-23f6290008c8")
+		)
+		(pin "2"
+			(uuid "7696b339-1fad-4ad9-b91a-2e9dfa741bd0")
+		)
+		(pin "3"
+			(uuid "3fbda4bf-a15b-4235-b8a0-288a2214498d")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 128.27 77.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5423bd2a-a019-44da-a3b1-245cdc768d09")
+		(property "Reference" "SW3"
+			(at 128.016 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,2]"
+			(at 127 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 128.27 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 128.27 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1402a9a-0156-412c-9d4e-75e39f88e8ec")
+		)
+		(pin "2"
+			(uuid "d4db34b5-6aab-4c53-bd78-f9c71fc03050")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 179.07 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c77994-b8ac-4032-8923-da1829bed342")
+		(property "Reference" "SW18"
+			(at 179.07 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,7]"
+			(at 180.34 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33411f96-b257-4133-a89b-cefb7e1c5899")
+		)
+		(pin "2"
+			(uuid "908a1fa4-f2a0-455d-848f-0548e992ed58")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 107.95 77.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55524a7c-42e4-4aca-9138-e1d7bb615247")
+		(property "Reference" "SW1"
+			(at 107.696 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,0]"
+			(at 106.68 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 107.95 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 107.95 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f0c0307-df8f-4686-97ce-4c3e3acfa9ac")
+		)
+		(pin "2"
+			(uuid "6f71f9c3-c20c-403f-8e07-ba75c515ed78")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 199.39 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e129211-e20f-4c40-bfd0-8a8b83135e32")
+		(property "Reference" "SW29"
+			(at 199.39 105.41 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[2,9]"
+			(at 198.12 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9140aa93-ed2d-4473-9e9f-ed049858322c")
+		)
+		(pin "2"
+			(uuid "20b961ea-dcae-4f75-aadc-520d53579b29")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 189.23 77.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f8d25c2-bf0a-4736-ad02-cb87aa813add")
+		(property "Reference" "SW9"
+			(at 188.976 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,8]"
+			(at 187.96 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 189.23 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 189.23 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5385b97b-4a2d-4801-ad77-cd30c82d3d92")
+		)
+		(pin "2"
+			(uuid "ec855a52-8496-464b-8abc-4cc0d605df30")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 128.27 105.41 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ba1e9c9-e680-4aca-917b-6cb7ed0d164c")
+		(property "Reference" "SW23"
+			(at 128.016 105.41 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[2,2]"
+			(at 127 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 128.27 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 128.27 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c111f6f8-80ef-4d99-a629-367344be5e03")
+		)
+		(pin "2"
+			(uuid "c6118862-bea0-4888-baee-d7dca30ca361")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 194.31 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bb8e558-311d-4c6f-bf99-593871108cce")
+		(property "Reference" "D22"
+			(at 194.31 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 194.31 113.4364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 192.405 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 196.342 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3886fab-e881-4efd-a2b6-a0627076fa08")
+		)
+		(pin "2"
+			(uuid "9fffe4f4-4948-47fa-b48c-80bf7de35c31")
+		)
+		(pin "3"
+			(uuid "90a37859-7db0-44d0-8c65-0af96412ca51")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 173.99 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e50865b-72cc-4506-95c7-56160173c8be")
+		(property "Reference" "D17"
+			(at 173.99 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 173.99 99.4664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 172.085 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 176.022 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98a22b44-4b16-4f39-b402-e32bad5265f3")
+		)
+		(pin "2"
+			(uuid "69e9a799-c22f-4e20-9b40-c26423849c9d")
+		)
+		(pin "3"
+			(uuid "78c8736a-03a0-47ba-8b25-aeb80ac46bc7")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 113.03 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72122cfc-e6b6-40ad-b67d-e40002bd793a")
+		(property "Reference" "D14"
+			(at 113.03 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 113.03 99.4664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 111.125 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 115.062 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ace9132-bce4-456c-bc9a-7544c7b21f6a")
+		)
+		(pin "2"
+			(uuid "819bbb2e-ff8d-4303-ac67-9e533c054344")
+		)
+		(pin "3"
+			(uuid "89c1f4c1-dd92-4610-9c0c-e6e5f1aadfa9")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 189.23 105.41 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75ddaeac-13a4-4f4f-8829-648326c27183")
+		(property "Reference" "SW28"
+			(at 188.976 105.41 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[2,8]"
+			(at 187.96 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 189.23 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 189.23 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a09b1b3-7802-468e-bf1f-0350c7aa5494")
+		)
+		(pin "2"
+			(uuid "2cb2cf3b-87a9-4acc-983f-35bd93b1524f")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 128.27 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7685dce0-96c0-4d25-a257-f0f68dc66889")
+		(property "Reference" "SW13"
+			(at 128.524 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,2]"
+			(at 129.54 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 128.27 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 128.27 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd28232d-4c66-4bf5-9b64-1306e68e819c")
+		)
+		(pin "2"
+			(uuid "07a1231a-0c1a-4d64-b386-647cddf511c5")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 128.27 119.38 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cc908f3-0312-45e0-802e-9a4190dc08ec")
+		(property "Reference" "SW32"
+			(at 128.016 119.38 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[3,2]"
+			(at 127 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 128.27 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 128.27 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "142edd98-e35a-4969-ab57-dd467e2b2ffb")
+		)
+		(pin "2"
+			(uuid "f35e9476-dbb1-4f80-a2ff-3f1998e018a5")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 148.59 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "870cf8fe-a747-4cd9-a834-6caba48179e3")
+		(property "Reference" "SW15"
+			(at 148.844 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,4]"
+			(at 149.86 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 148.59 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 148.59 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0633ca2-dd1e-4dfa-b2ac-9056e93c5578")
+		)
+		(pin "2"
+			(uuid "8e3f0305-08ad-4e34-aef7-fa6d5415abe6")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 194.31 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87c48c00-8478-4ceb-8387-d99b8ea7ef5b")
+		(property "Reference" "D8"
+			(at 194.31 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 194.31 71.5264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 192.405 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 196.342 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e588e98b-e48f-45ea-89c6-98b2caa1a078")
+		)
+		(pin "2"
+			(uuid "d13e573b-cf8f-4e29-aa34-595dd74e3b6a")
+		)
+		(pin "3"
+			(uuid "20db68ef-1f93-4462-803f-f09b7b21d2fe")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 113.03 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8845d3bd-7112-4e12-853a-a8a1032742fb")
+		(property "Reference" "D2"
+			(at 113.03 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 113.03 71.5264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 111.125 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 115.062 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29b01636-9a09-4c64-9ed6-bfeb23123817")
+		)
+		(pin "2"
+			(uuid "b0e1bb42-4317-491b-ae76-bc5eb6dee30f")
+		)
+		(pin "3"
+			(uuid "ffc674fc-0686-41c0-9d22-bd01c20e494b")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 133.35 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f3c3438-2bba-4860-976d-1c6b3606dd02")
+		(property "Reference" "D15"
+			(at 133.35 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 133.35 99.4664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 131.445 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 135.382 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad635e89-47de-4873-acd3-e9042688e6ca")
+		)
+		(pin "2"
+			(uuid "eb1039e8-5603-48fe-9fa2-a71410d7d991")
+		)
+		(pin "3"
+			(uuid "c6675fa1-df9b-4990-aba7-772b29648802")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 107.95 105.41 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93381cbf-5069-4a2c-8123-df0a9227e093")
+		(property "Reference" "SW21"
+			(at 107.696 105.41 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[2,0]"
+			(at 106.68 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 107.95 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 107.95 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7a5c6be-411c-4487-b57a-5a9d1f564e46")
+		)
+		(pin "2"
+			(uuid "9bc23a68-9f1b-4d52-84e2-2d14aa41e16f")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 138.43 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97b48532-f3aa-4caa-b8b6-5894be700287")
+		(property "Reference" "SW33"
+			(at 138.43 119.38 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[3,3]"
+			(at 137.16 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3887060b-6aeb-494d-87e7-5e53a3043415")
+		)
+		(pin "2"
+			(uuid "dc7b76c6-7c41-4c66-86df-c1bff110be20")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 189.23 119.38 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4b16218-7f92-4a64-b245-795936aef86e")
+		(property "Reference" "SW36"
+			(at 188.976 119.38 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[3,8]"
+			(at 187.96 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 189.23 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 189.23 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56ee23ae-1e8c-4395-b30b-fdc0cce9f3f3")
+		)
+		(pin "2"
+			(uuid "5d7fae2c-e683-404d-b64b-1aadf1859790")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 199.39 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aae0f14e-4440-4f7a-9930-8fde91c2e32b")
+		(property "Reference" "SW10"
+			(at 199.39 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,9]"
+			(at 198.12 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f379d5c8-c5c5-4498-8c1c-cc9b9a8fb447")
+		)
+		(pin "2"
+			(uuid "a893a2c9-f48c-4ce4-bd00-2575662c9f8a")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 138.43 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abd3e8ee-e8ff-410d-aa39-c8fe8a0d85b4")
+		(property "Reference" "SW24"
+			(at 138.43 105.41 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[2,3]"
+			(at 137.16 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7a33c04-294b-40b1-802d-a92805e7c79f")
+		)
+		(pin "2"
+			(uuid "12ada51f-7ab2-4030-94c3-9d4b0bc56fe0")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_stab")
+		(at 137.16 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6ef6aec-c8be-4856-8e05-72075673284e")
+		(property "Reference" "S1"
+			(at 143.51 128.1429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "choc_stab"
+			(at 143.51 130.6829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-choc:STAB_choc_2u"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Kailh Choc-style stabilizer"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 179.07 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb61c554-85d1-4544-85e1-a4f0bbccf1a2")
+		(property "Reference" "SW35"
+			(at 179.07 119.38 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[3,7]"
+			(at 177.8 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 179.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78de3b5a-9d82-4fd7-a56a-0793701d7228")
+		)
+		(pin "2"
+			(uuid "8bd2929e-db32-4604-8def-af167eb52090")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 158.75 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd73d01c-7147-4e27-9639-b09110dcf77e")
+		(property "Reference" "SW34"
+			(at 159.004 119.38 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[3,5]"
+			(at 160.02 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 158.75 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 158.75 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e2c5db6-6b42-49c4-b796-2402a170614f")
+		)
+		(pin "2"
+			(uuid "3805c4ce-3809-4087-8bb7-edff1646229c")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 118.11 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdcf4239-3c32-424d-9bbc-692ceb79c941")
+		(property "Reference" "SW2"
+			(at 118.11 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,1]"
+			(at 116.84 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f35575ac-2344-4f31-b298-d17e2ac39f87")
+		)
+		(pin "2"
+			(uuid "1e37f337-c4bd-4073-a2fd-769ee99395ed")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 194.31 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c10877ec-a806-4c8d-b246-02a5bfbdc157")
+		(property "Reference" "D18"
+			(at 194.31 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 194.31 99.4664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 192.405 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 196.342 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47806894-9afa-4cd9-a3e5-4c31ccf80df2")
+		)
+		(pin "2"
+			(uuid "1917cc68-d69f-43a3-97c6-03eb2825f799")
+		)
+		(pin "3"
+			(uuid "bfba868c-38bb-4c32-a99a-de1962077f9a")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 168.91 77.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c21303f8-078f-48ef-8971-b7e1e23e088f")
+		(property "Reference" "SW7"
+			(at 168.656 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,6]"
+			(at 167.64 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 168.91 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 168.91 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7644036-2077-410a-9196-2e5e2f123c43")
+		)
+		(pin "2"
+			(uuid "cae6d0cc-2baf-4863-8ac5-d64a55323382")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 158.75 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce7c5d70-f448-478a-bbc5-abd897691e94")
+		(property "Reference" "SW16"
+			(at 158.75 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,5]"
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f69875c-ab2b-4f7f-a4cf-bd5a6df721d7")
+		)
+		(pin "2"
+			(uuid "c8216778-4a51-4157-9056-f79d438335c9")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 138.43 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1268686-5108-47f8-b8ff-4eff938e6c33")
+		(property "Reference" "SW14"
+			(at 138.43 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,3]"
+			(at 139.7 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "737dfa56-48ab-43b3-84eb-6b446a1ef1d5")
+		)
+		(pin "2"
+			(uuid "61f7c6b7-966f-4ec8-80c3-e86fa6ee3a32")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 133.35 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1842b87-f239-4ab5-9fee-5c89266acc6f")
+		(property "Reference" "D20"
+			(at 133.35 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 133.35 113.4364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 131.445 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 135.382 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d4fc4fb-9f70-4456-bc89-da83e3b46580")
+		)
+		(pin "2"
+			(uuid "bdde023f-eef9-408b-8276-eb26ba2cd06f")
+		)
+		(pin "3"
+			(uuid "0239502c-6847-4bf7-9f66-cf0f79bc480c")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 138.43 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6f57f86-f6f8-4ae4-bee7-0ecd78066522")
+		(property "Reference" "SW4"
+			(at 138.43 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,3]"
+			(at 137.16 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "442a9f6d-7853-41c3-ae47-518ab423c551")
+		)
+		(pin "2"
+			(uuid "3b244e33-f357-4ddb-bca6-5afbbe5d518e")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_stab")
+		(at 158.75 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d741476a-6d33-4aa2-9aca-9b036a85acd6")
+		(property "Reference" "S2"
+			(at 165.1 128.1429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "choc_stab"
+			(at 165.1 130.6829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-choc:STAB_choc_2u"
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Kailh Choc-style stabilizer"
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 179.07 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7aa812a-3641-4ab1-bf5f-19ca2f68aec5")
+		(property "Reference" "SW8"
+			(at 179.07 77.47 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[0,7]"
+			(at 177.8 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a8d207c-d9a6-48ea-a49c-b0f7c7cc620e")
+		)
+		(pin "2"
+			(uuid "2dddf11f-7f17-48ab-af70-f4166726d7aa")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 153.67 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f62778-a4c6-4444-ba4c-cf7c6c6e7c70")
+		(property "Reference" "D11"
+			(at 153.67 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 153.67 85.4964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 155.575 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 151.638 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f81d27e-3880-423b-8428-04d7e82c4e6e")
+		)
+		(pin "2"
+			(uuid "c56fa456-f810-49b4-850a-9916d9c9e1e2")
+		)
+		(pin "3"
+			(uuid "51d43595-fbde-483e-891e-66a0b006c465")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 173.99 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7ed026b-7ef0-4b20-99cd-ad56dc950b68")
+		(property "Reference" "D12"
+			(at 173.99 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 173.99 85.4964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 175.895 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 171.958 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7368520e-f88f-4373-95e2-bbf779152d1a")
+		)
+		(pin "2"
+			(uuid "72a6136e-fa75-4552-af52-df558029539d")
+		)
+		(pin "3"
+			(uuid "bd046ae3-c3a2-47f2-8437-3d218dd420ce")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 158.75 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eac21b87-06bf-486e-9803-6326d0836f5d")
+		(property "Reference" "SW26"
+			(at 158.75 105.41 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[2,5]"
+			(at 157.48 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad84b1a7-b7e3-42fc-bb8e-85a9cf80e3b6")
+		)
+		(pin "2"
+			(uuid "d1951edd-8181-4299-9bfc-de035728db1f")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 199.39 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f594ac68-3e9b-42a9-ba23-8c29d01c7bce")
+		(property "Reference" "SW37"
+			(at 199.39 119.38 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[3,9]"
+			(at 200.66 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d863bb5e-88b2-424f-af52-91ed27f4beaa")
+		)
+		(pin "2"
+			(uuid "7fe251b9-0347-42a3-9fff-96d9630587e4")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 194.31 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f72a5d6b-535f-4286-b0d2-cf3233b6b4b3")
+		(property "Reference" "D13"
+			(at 194.31 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 194.31 85.4964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 196.215 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 192.278 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62e203d1-526a-4dff-870c-eb1177e785cd")
+		)
+		(pin "2"
+			(uuid "c103f10b-55b3-4b1a-a944-2ac56b6be910")
+		)
+		(pin "3"
+			(uuid "25af00f4-f729-4826-bc79-681d00d15f3b")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 173.99 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa232387-8f9a-4f61-add9-5b9c477eda5a")
+		(property "Reference" "D21"
+			(at 173.99 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 173.99 113.4364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 172.085 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 176.022 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da0eb7f3-ead5-444f-a528-9975d4013e99")
+		)
+		(pin "2"
+			(uuid "2d1b3ea0-62ef-4ab2-8d11-1b25ca65d7ec")
+		)
+		(pin "3"
+			(uuid "5d6b19c5-1a60-4142-b25e-08176c340fde")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 118.11 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc065eaa-1c68-4214-8718-d7bb9b9c511e")
+		(property "Reference" "SW31"
+			(at 118.11 119.38 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[3,1]"
+			(at 116.84 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 118.11 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6124e13d-2ec5-4c6b-b2f2-442d84888300")
+		)
+		(pin "2"
+			(uuid "67ab090f-bba8-4947-9e6d-807be22b3d49")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 107.95 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc3180ca-bdd0-445e-a93c-cb5f7b4bfb0f")
+		(property "Reference" "SW11"
+			(at 107.696 91.44 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[1,0]"
+			(at 106.68 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 107.95 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 107.95 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ee5cf09-fb79-4885-bb79-fba02b95d658")
+		)
+		(pin "2"
+			(uuid "6d519f0b-2fda-4992-9739-2c21d5619157")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_45deg_1")
+		(lib_id "Switch:SW_Push_45deg")
+		(at 107.95 119.38 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdcfc42a-dab1-4295-a61d-0e76800c7e91")
+		(property "Reference" "SW30"
+			(at 108.204 119.38 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "[3,0]"
+			(at 109.22 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chaz:choc-1u-millmax"
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ROW" "0"
+			(at 107.95 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COL" "0"
+			(at 107.95 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a899f048-db28-451f-9435-9f49e8a1264c")
+		)
+		(pin "2"
+			(uuid "8f543771-a2c6-4697-ac6a-1bac8e95cb14")
+		)
+		(instances
+			(project "chaz_hotswap_ble_integrated"
+				(path "/84e5506c-143e-495f-9aa4-d3a71622f213/9e7e2d0d-a3af-4493-89a3-dbd1d8095cd6"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

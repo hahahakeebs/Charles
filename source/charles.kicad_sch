@@ -9902,7 +9902,7 @@
 			)
 		)
 	)
-	(global_label "reset"
+	(global_label "RST"
 		(shape input)
 		(at 201.93 30.48 0)
 		(effects

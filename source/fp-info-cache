@@ -1,4 +1,4 @@
-27482852295511323
+27489870790075644
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101248,6 +101248,13 @@ Logo Symbol OSHW
 0
 0
 Symbol
+OSHW-Logo2_7.3x6mm_Copper_w_mask
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
 OSHW-Logo2_7.3x6mm_SilkScreen
 Open Source Hardware Symbol
 Logo Symbol OSHW
@@ -110046,6 +110053,27 @@ SMD SMT SPST EVQPUL EVQPUC
 0
 10
 2
+zackforbing
+Powered_By_ZMK copper
+Converted using: svg2mod --debug -f 2 -p 0.1 -i /home/peter/Downloads/zmk2.svg -o logo.pretty/zmk2.kicad_mod --format pretty
+svg2mod
+0
+0
+0
+zackforbing
+Powered_By_ZMK copper w mask
+Converted using: svg2mod --debug -f 2 -p 0.1 -i /home/peter/Downloads/zmk2.svg -o logo.pretty/zmk2.kicad_mod --format pretty
+svg2mod
+0
+0
+0
+zackforbing
+Powered_By_ZMK silk
+Converted using: svg2mod --debug -f 2 -p 0.1 -i /home/peter/Downloads/zmk2.svg -o logo.pretty/zmk2.kicad_mod --format pretty
+svg2mod
+0
+0
+0
 zackforbing
 SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u no mount
 Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Plated Keycap 1.00u
